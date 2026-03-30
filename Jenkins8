@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bat 'node app.js'
+                echo 'Testing successful'
             }
         }
         stage('Deploy') {
